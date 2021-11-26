@@ -11,13 +11,13 @@ const postdata = [
         postTitle: "MYSQL",
         dateCreated: "2021/03/2",
         postContent: "DataBase --Know better",
-        user_id: 2,
+        userId: 2,
     },
     {
         postTitle: "Women Back to Tech",
         dateCreated: "2021/05/21",
         postContent: "An Inspirational Story!",
-        user_id: 3,
+        userId: 3,
     },
 ];
 const seedPost = () => Post.bulkCreate(postdata);
