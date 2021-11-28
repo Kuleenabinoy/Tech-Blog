@@ -1,4 +1,4 @@
-<div class="comments">
+{{!-- <div class="comments">
     {{#each this}}
         <div>
             <p class="card-body2">
@@ -8,5 +8,20 @@
                 {{format_date dateCreated}}
             </p>
         </div>
+    {{/each}}
+</div> --}}
+
+<div class="comments">
+    {{#each this}}
+        <section class="comment">
+            <div class="meta">
+                {{user.username}}
+                on
+                {{format_date dateCreated}}
+            </div>
+            <div class="text">
+                {{comment.commentContent}}
+            </div>
+        </section>
     {{/each}}
 </div>
