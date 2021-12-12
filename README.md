@@ -1,5 +1,7 @@
 # Tech-Blog
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description
 
 The application contained within is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
@@ -20,7 +22,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 -   [Usage](#Usage)
 -   [ScreenShots](#Screenshots)
 -   [Link](#Links)
--   [Questions].(#Questions)
+-   [Questions](#Questions)
 
 ## Installation
 
@@ -54,5 +56,7 @@ expresssection
 https://techbloghw01.herokuapp.com/
 
 https://github.com/Kuleenabinoy/Tech-Blog
+
 ## Questions
+
 If you have any questions please free to contact Kuleena @annachandy123@gmail.com
